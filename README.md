@@ -24,12 +24,12 @@ A production-style cold-start recommendation system built using neural embedding
 
 ## 🔹 Overview
 
-*NOVA* is a *low-latency recommendation system* designed specifically for *cold-start ecommerce scenarios*, where historical user interaction data (clicks, purchases, ratings) is *unavailable or sparse*.
+*NOVA* is a low-latency recommendation system designed specifically for *cold-start ecommerce scenarios*, where historical user interaction data (clicks, purchases, ratings) is *unavailable or sparse*.
 
 Instead of relying on past behavior, NOVA:
-- Represents *users and products as vectors* in a shared embedding space
+- Represents users and products as vectors in a shared embedding space
 - Uses *semantic similarity* to identify relevant items
-- Retrieves recommendations using *fast vector search*, enabling real-time inference
+- Retrieves recommendations using fast vector search, enabling *real-time inference*
 
 
 ## 🔹 Problem
@@ -53,7 +53,7 @@ NOVA reframes recommendation as a *vector similarity problem*.
 
 If a user vector is *close* to a product vector in embedding space, the product is relevant.
 
-This approach allows NOVA to generate *meaningful recommendations from the very first interaction*, without relying on user history.
+This approach allows NOVA to generate meaningful recommendations from the very first interaction, without relying on user history.
 
 
 ## 🔹 Architecture Components
